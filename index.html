@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav bar</title>
+    <script src="https://kit.fontawesome.com/2c2eb6e423.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+ 
+<body>
+  <header>
+   <div  id="drop" >
+    <!-- <div class="dropbtn">this is a text messsage</div> -->
+
+    <div><button onclick ="myFun()" id="dropbtn"><span class="fa3"><i class="fas fa-times"></i></span><span  class="fa4"><i  class= "fas fa-bars"></i></span></button></div>
+    
+    <div  class="nav-bar">
+    
+       <nav>
+
+           <b >Menu</b>
+           <a href="group">group</a>
+            <a id="dropMain" onclick="myFunction()" href="#">class <span  class="fa1"><i class="fas fa-chevron-up"></i></span><span  class="fa2"><i onclick="myFunction1()" class= "fas fa-chevron-down"></i></span></a> 
+           <a href="#">creativity</a>
+           <a  href="#">ideas</a>
+
+           <a class="space" href="new">let started</a>
+         <div  class="dropdownMain">
+           <ul>
+            <a href="group">group</a>
+            <a href="class">class </a> 
+           <a href="class">creativity</a>
+           <a  href="class">ideas</a>
+           <a class="space" href="new">let started</a>
+           </ul>
+         </div>
+
+
+
+        </nav>
+        
+   </div>
+ 
+ </div>
+</header>
+  <div class="weather">
+ 
+    <div class="input">
+        <input type="text " class="inputValue" placeholder="Enter Location">
+    
+        
+    </div class = "space2">
+   <br> 
+    <button class="button"><i class="fas fa-search"></i></button>
+  
+<br>
+ 
+<div class="displayweather">
+  <p>Weather Report</p><br>
+      <h1 class="temp">----°C</h1><br>
+      <p class="desc">---</p>
+    </div>
+  </div>
+ 
+</div> 
+</div> 
+   
+</body>
+
+<script type="text/javascript" src="api.js"></script>
+<script type="text/javascript" src="index.js"></script>
+<script type="text/javascript" src="myFunction1.js"></script>
+
+</html>
