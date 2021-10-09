@@ -9,7 +9,7 @@ body{
     width: 100%;
     height: 100%;
     /* position: fixed; */
-    background-image: url(https://cdn.britannica.com/89/150289-050-5DFA33B2/Rain-lightning-thunderstorm-Arizona.jpg);
+    background-image: url(https://c.files.bbci.co.uk/180C5/production/_117610589_raincloud.jpg);
     background-color: #ccc;
     background-size:1000px, cover;
     background-size: cover;
@@ -186,7 +186,7 @@ body{
         height: 100%;
         /* background-image: unset; */
         /* position: fixed; */
-        background-image: url(https://cdn.britannica.com/89/150289-050-5DFA33B2/Rain-lightning-thunderstorm-Arizona.jpg);
+        background-image: url(https://c.files.bbci.co.uk/180C5/production/_117610589_raincloud.jpg);
         background-color: #ccc;
         background-repeat: no-repeat;
         background-size:1000px, cover;
